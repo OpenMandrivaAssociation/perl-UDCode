@@ -8,7 +8,7 @@ Release:	5
 Summary:	Does a set of code words form a uniquely decodable code?
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://search.cpan.org/CPAN/authors/id/M/MJ/MJD/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
