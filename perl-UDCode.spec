@@ -1,15 +1,13 @@
 %define upstream_name    UDCode
-%define upstream_version 1.04
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	1.04
+Release:	2
 
 Summary:	Does a set of code words form a uniquely decodable code?
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/ap/UDCode
-Source0:	https://cpan.metacpan.org/authors/id/A/AR/ARISTOTLE/UDCode-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/A/AR/ARISTOTLE/UDCode-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -30,7 +28,7 @@ of code words.
     uniquely decodable.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
